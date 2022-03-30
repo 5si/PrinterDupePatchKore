@@ -1,0 +1,5 @@
+name: PrinterCraftingSlotDupeFix
+author: 5si
+description: prevents a player from placing items in their inventory crafting slot while in printer :D
+version: 1.0
+main: dev.lyons.mcrivals.printercraftingfix.Main

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dev.lyons</groupId>
+    <artifactId>AntiPrinterCraftingSlotFix</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>dmulloy2-repo</id>
+            <url>https://repo.dmulloy2.net/repository/public/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>me.suicidalkids</groupId>
+            <artifactId>SKSpigot</artifactId>
+            <version>1.8.8-R0.2-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>D:/paradise/5siSpigot/target/5siSpigot-1.0-SNAPSHOT-Paradise-Edit.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.golfing8</groupId>
+            <artifactId>FactionsKore</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>D:/MavenDependencys/FactionsKore-1.0.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>com.comphenix.protocol</groupId>
+            <artifactId>ProtocolLib</artifactId>
+            <version>4.7.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
